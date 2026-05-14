@@ -1,0 +1,22 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+
+    "AZURE_TENANT_ID":       "<your-tenant-id>",
+    "STORAGE_ACCOUNT_NAME":  "<stefautomation>",
+
+    "KEY_VAULT_NAME":        "<kv-ef-automation>",
+
+    "SMTP_SERVER":           "smtp.office365.com",
+    "SMTP_PORT":             "587",
+    "SENDER_EMAIL":          "it-automation-service@netradyne.com",
+    "SENDER_PASSWORD":       "<app-password-or-leave-blank-to-use-keyvault>",
+
+    "IT_EMAIL":              "it-operations@netradyne.com",
+    "RECOVERY_GRACE_DAYS":   "30",
+
+    "WEBHOOK_TOKEN":         "<optional-shared-secret-for-webhook-security>"
+  }
+}
